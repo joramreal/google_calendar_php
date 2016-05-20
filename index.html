@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Prueba de Formulario</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+<div align="center">
+<iframe style="border: 1px solid #777777; text-align: center;" src="https://www.google.com/calendar/embed?title=Ocupaci%C3%B3n%20de%20los%20plat%C3%B3s&amp;mode=WEEK&amp;height=400&amp;wkst=2&amp;bgcolor=%23FFFFFF&amp;src=7904dgrqdkbchhrg9r9el3e8i8%40group.calendar.google.com&amp;color=%2342104A&amp;src=ull.edu.es_fjljl4m6nfehjnlgnavuca278o%40group.calendar.google.com&amp;color=%23853104&amp;ctz=Atlantic%2FCanary" height="400" width="600" frameborder="0" scrolling="no"></iframe>
+<br><br>
+</div>
+
+<form action="./quickstart.php" method="post">
+ <table width="400" border="0" cellspacing="0" cellpadding="0" align="center">
+ <tr>
+ <td>Nombre del solicitante:</td>
+ <td><input type="text" name="nombre" placeholder="Escribe Tu nombre" required></td>
+ </tr>
+
+<tr>
+ <td>E-mail del solicitante:</td>
+ <td><input type="email" name="correo" placeholder="Aqui@tucorreo.com" required></td>
+ </tr>
+
+<tr>
+ <td>Telefono del solicitante:</td>
+ <td><input type="text" name="telefono" placeholder="Telefono" required></td>
+ </tr>
+<tr>
+
+<td>Titulo del Evento:</td>
+ <td><input type="text" name="tevento" required></td>
+</tr>
+
+<tr>
+ <td>Organizador del Evento:</td>
+ <td><input type="text" name="organizador" placeholder="Telefono" required></td>
+ </tr>
+<tr>
+
+<td>Entidad u organismo:</td>
+ <td><input type="text" name="organismo" required></td>
+</tr>
+
+<tr>
+ <td>Lugar de celebracion:</td>
+ <td><textarea cols="25" rows="6" name="lugar" placeholder="Escribe el Lugar" required></textarea></td>
+</tr>
+
+<tr>
+ <td>Nombre, apellidos y cargo de cada ponente</td>
+ <td><textarea cols="25" rows="6" name="ponentes" placeholder="Ponentes" required></textarea></td>
+</tr>
+
+<tr>
+ <td>Numero de ponentes:</td>
+ <td><input type="number" name="numponentes" max="100" min="0" placeholder="Numero de ponentes" required></td>
+ </tr>
+<tr>
+
+<tr>
+ <td>Fecha inicio:</td>
+ <td><input type="date" name="fecha_inicio"></td>
+ </tr>
+<tr>
+
+<tr>
+ <td>Hora Inicio:</td>
+ <td><input type="time" name="hora_inicio"></td>
+ </tr>
+<tr>
+
+<tr>
+ <td>Fecha fin:</td>
+ <td><input type="date" name="fecha_fin"></td>
+ </tr>
+<tr>
+
+<tr>
+ <td>Hora fin:</td>
+ <td><input type="time" name="hora_fin"></td>
+ </tr>
+<tr>
+ 
+<tr>
+ <td>&nbsp;</td>
+ <td><input id="boton" type="submit" name="boton" value="Enviar mensaje"></td>
+ </tr>
+
+<tr>
+ <td>&nbsp;</td>
+ <td>&nbsp;</td>
+ </tr>
+ </table> 
+</form>
+
+</body>
+</html>
