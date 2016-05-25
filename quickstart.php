@@ -133,4 +133,7 @@ if ($client->getAccessToken()){
    $createdEvent = $service->events->insert($calendarId, $event);
    //echo "<br><font size=+1>Event created</font>";
 }
+
+header("Location: http://localhost/index.html");
+die();
 ?>
